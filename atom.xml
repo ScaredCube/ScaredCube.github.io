@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scaredcube.tk</id>
     <title>ScaredCube</title>
-    <updated>2021-01-14T09:08:45.316Z</updated>
+    <updated>2021-01-15T04:50:29.525Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scaredcube.tk"/>
     <link rel="self" href="https://scaredcube.tk/atom.xml"/>
@@ -11,8 +11,8 @@
     <rights>All rights reserved 2021, ScaredCube</rights>
     <entry>
         <title type="html"><![CDATA[Markdown测试]]></title>
-        <id>https://scaredcube.tk/text/</id>
-        <link href="https://scaredcube.tk/text/">
+        <id>https://scaredcube.tk/test/</id>
+        <link href="https://scaredcube.tk/test/">
         </link>
         <updated>2020-12-31T19:30:12.000Z</updated>
         <summary type="html"><![CDATA[<p>Markdown测试<br>
