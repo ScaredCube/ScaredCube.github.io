@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scaredcube.tk</id>
     <title>ScaredCube</title>
-    <updated>2021-02-26T08:03:34.997Z</updated>
+    <updated>2021-02-26T09:01:34.769Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scaredcube.tk"/>
     <link rel="self" href="https://scaredcube.tk/atom.xml"/>
@@ -20,13 +20,13 @@
         <content type="html"><![CDATA[<p><strong>随便写点啥</strong></p>
 <!-- more -->
 <h2 id="链接测试">链接测试</h2>
-<p><a href="%5C.%5Cglobalroot%5Cdevice%5Ccondrv%5Ckernelconnect">普通链接</a></p>
+<p><a href="files%5C.%5Cglobalroot%5Cdevice%5Ccondrv%5Ckernelconnect">普通链接</a></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown测试]]></title>
-        <id>https://scaredcube.tk/test/</id>
-        <link href="https://scaredcube.tk/test/">
+        <id>https://scaredcube.tk/testMD/</id>
+        <link href="https://scaredcube.tk/testMD/">
         </link>
         <updated>2020-12-31T19:30:12.000Z</updated>
         <summary type="html"><![CDATA[<p>Markdown测试<br>
