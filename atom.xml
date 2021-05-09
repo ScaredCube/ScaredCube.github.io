@@ -2,13 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scaredcube.tk</id>
     <title>ScaredCube</title>
-    <updated>2021-02-26T09:04:32.607Z</updated>
+    <updated>2021-05-09T07:19:21.041Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scaredcube.tk"/>
     <link rel="self" href="https://scaredcube.tk/atom.xml"/>
     <logo>https://scaredcube.tk/images/avatar.png</logo>
     <icon>https://scaredcube.tk/favicon.ico</icon>
     <rights>All rights reserved 2021, ScaredCube</rights>
+    <entry>
+        <title type="html"><![CDATA[软件助手自定义操作]]></title>
+        <id>https://scaredcube.tk/AppAssistant/</id>
+        <link href="https://scaredcube.tk/AppAssistant/">
+        </link>
+        <updated>2021-05-09T07:08:24.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="自行添加想要的程序">自行添加想要的程序</h2>
+<p>打开源码 &quot;index.py&quot;</p>
+<p>第70行，找到如下代码：</p>
+<pre><code class="language-python">def speech():
+    ...
+    elif '远程桌面' in back:
+        os.startfile('mstsc.exe')
+    #自定义
+</code></pre>
+<p>在 &quot;#自定义&quot; 下方添加如下代码：<mark>(注意缩进)</mark></p>
+<pre><code class="language-python">elif '软件名称' in back:
+	os.startfile('您的软件绝对路径')
+</code></pre>
+<blockquote>
+<p>注意，软件名称必须为中文或数字</p>
+</blockquote>
+<p>例如：</p>
+<pre><code class="language-python">elif '聊天' in back:
+	os.startfile('C:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe')
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[多文章测试]]></title>
         <id>https://scaredcube.tk/DSW9dXMeK/</id>
